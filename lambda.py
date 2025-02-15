@@ -12,9 +12,9 @@ dynamodb = boto3.resource('dynamodb')
 
 
 # AWS Resource Names
-SNS_TOPIC_ARN = "arn:aws:sns:eu-north-1:337909745504:lambda-s3-put-notification"
-S3_BUCKET_NAME = 'api-test-s3-bucketz'
-TABLE_NAME = 'api-test-table'
+SNS_TOPIC_ARN = "arn:aws:sns:eu-north-1:337909745504:file-upload"
+S3_BUCKET_NAME = 'api-static-upload'
+TABLE_NAME = 'file_upload_db'
 
 
 table = dynamodb.Table(TABLE_NAME)
