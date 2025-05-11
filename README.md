@@ -17,7 +17,3 @@ This repository contains Python and Bash scripts for an AWS project that impleme
 
 
 - **upload.sh**: This contain scripts that will be used to upload static and json files
-
-## Architecture Diagram
-
-![image](https://github.com/user-attachments/assets/ea02febd-2259-4b36-a457-c11a52e1e460)
